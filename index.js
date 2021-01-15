@@ -8,6 +8,7 @@ function callApi(endpoind, method) {
     const options = {
       method
     };
+    const name = '';
   
     return fetch(url, options)
       .then(response => 
